@@ -1,0 +1,89 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 10px 0;
+    z-index: 100;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 0 40px; /*Segundo numero altera o espaçamento entre as opções da navbar*/
+    margin-top: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background-color 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: black; /*Altera a cor hover dos botões da navbar*/
+    border-radius: 4px;
+}
+
+nav ul li i {
+    margin: 0 10px;
+}
+
+nav ul li img {
+    align-items: center;
+    margin-top: -8px;
+}
+
+.background-image {
+    height: 450px;
+    background-image: url('https://placehold.co/1000x450/green/white');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(100%);
+}
+
+input[type="search"] {
+    margin-top: -5px;
+    width: 200px;   /* Largura do input */
+    padding: 5px;   /* Espaçamento interno */
+    border: 1px solid #cccccc;  
+    border-radius: 2px;    
+    font-size: 16px;    
+    outline: none;  /* Remove o contorno ao clicar */
+}
+
+input[type="search"]::placeholder {
+    color: #999999;     /* Cor do texto do placeholder */
+    font-style: italic;    
+}
+
+input[type="search"]:focus {    /*Adiciona borda e sombra quando estiver selecionado */
+    border-color: #007BFF;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.home2{
+    background-color: #004362;
+    filter: brightness(70%);
+    width: 100%;
+    height: 1000px;
+}
+
+.position-sobre{
+     
+}
