@@ -82,8 +82,26 @@ input[type="search"]:focus {    /*Adiciona borda e sombra quando estiver selecio
     filter: brightness(70%);
     width: 100%;
     height: 1000px;
+    position: fixed;
 }
 
 .position-sobre{
-     
+     margin-left: 200px;
+     height: 250px;
+     width: 50%;
+}
+
+.sobre-texto {
+    width: 100%;
+    height: 450px;
+    margin-left: 20%;
+
+}
+
+.imagem-sobre1{
+    background-image: url('https://placehold.co/250x250/white/back');
+    background-position: center;
+    height: 250px;
+    width: 250px;
+    margin-left: 120%;
 }
