@@ -11,35 +11,71 @@
     <title>Bubatag</title>
 </head>
 <body>
+    <div class="wrapper">
     <header>
         <section class="background-image">
             <nav class="menu">
                 <ul>
                     <li><img src="imgs/logo.png" width="35px" height="35px"></li>
-                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#">Problemática</a></li>
                     <li><a href="#">Mercado</a></li>
                     <li><a href="#">Notícias</a></li>
                     <li><a href="#">Documento</a></li>
-                    <li><a href="#">Integrantes</a></li>
+                    <li><a href="#team">Integrantes</a></li>
                     <li><i class="fa fa-search"></i><input type="search" placeholder="Pesquisar..."></li>
                 </ul>
             </nav>
         </section>
     </header>
 
-        <div class="home2"> 
-            <div class="position-sobre">
-                <div class="sobre-texto">
-
+        <section class="home2" id="sobre"> <!-- Sessão home2 - Sobre -->
+            <div class="position-sobre"> <!-- Posiciona o bloco de sobre primeiro -->
+                <div class="sobre-texto"> <!-- Posiciona o texto de primeiro sobre -->
                     <h1 style="font-size: 55px; color: green;">Sobre</h1>
                     <p style="color: white; font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem expedita quidem illo, enim quasi sapiente cupiditate quas! Delectus, commodi veritatis sed deleniti modi harum minima...</p>
-                    <button style="background-color:green; color: white; width: 100px; height: 35px; border-radius: 10%;">Ver Mais</button>
-                    
+                    <a href="#"><button style="background-color:green; color: white; width: 100px; height: 35px; border-radius: 10%;">Ver Mais</button></a>
                 </div>
-                <div class="imagem-sobre1"></div>
+                <div class="imagem-sobre1"> <!-- Posiciona a imagem de primeiro sobre -->
+                    <img src="https://picsum.photos/id/650/250/250" alt="" width="250px" height="250px">
+                </div>
             </div>
-        </div>
-    
+        </section>
+
+        <section class="team" id="team">
+
+            <div class="card-member-1">
+                <img src="https://picsum.photos/id/650/100/100" alt="" class="member-imagem">
+                <h2 class="member-name">Cristhian Hatzman</h2>
+                <p class="member-function">Full-Stack Developer</p>
+            </div>
+
+            <div class="card-member-2">
+                <img src="https://picsum.photos/id/651/100/100" alt="" class="member-imagem">
+                <h2 class="member-name">Vinicius de Souza</h2>
+                <p class="member-function">Full-Stack Developer</p>
+            </div>
+
+            <div class="card-member-3">
+                <img src="https://picsum.photos/id/652/100/100" alt="" class="member-imagem">
+                <h2 class="member-name">João Paulo</h2>
+                <p class="member-function">Full-Stack Developer</p>
+            </div>
+
+            <div class="card-member-4">
+                <img src="https://picsum.photos/id/653/100/100" alt="" class="member-imagem">
+                <h2 class="member-name">Carlos Eduardo</h2>
+                <p class="member-function">Full-Stack Developer</p>
+            </div>
+
+            <div class="card-member-5">
+                <img src="https://picsum.photos/id/654/100/100" alt="" class="member-imagem">
+                <h2 class="member-name">Arthur Fukunaga</h2>
+                <p class="member-function">Full-Stack Developer</p>
+            </div>
+
+
+        </section>
+    </div>
 </body>
 </html>
