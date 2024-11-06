@@ -57,7 +57,7 @@ nav ul li img {
 }
 
 .primary-imagem{
-    margin-top: -400px;
+    margin-top: -442px;
     background-position: center;
     background-color: black;
 }
@@ -86,9 +86,9 @@ nav ul li img {
 }
 
 .sobre-texto {
-    width: 450px;
+    width: 550px;
     height: 30px;
-    margin-left: 450px;
+    margin-left: 350px;
 }
 
 .imagem-sobre1{
@@ -197,7 +197,7 @@ nav ul li img {
     background-color: #E0830F;
     width: 100%;
     height: 270px;
-    margin-top: 750px;
+    margin-top: 1550px;
     margin-bottom: 0px;
     position: absolute;
 }
@@ -239,4 +239,31 @@ nav ul li img {
     font-family: Audiowide;
     font-size: 16px;
     margin-top: 85px;
+}
+
+/* Bubatag Abaixo */
+
+.home2-bubatag{
+    background-color: #2F3E46;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+
+.home3-bubatag{
+    background-color: #2F3E46;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    margin-top: 400px;
+}
+
+.sobre-texto-problematica{
+    width: 550px;
+    height: 30px;
+    margin-left: 1150px;
+}
+
+.imagem-problematica{
+    margin-left: 350px;
 }
