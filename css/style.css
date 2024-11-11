@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: black;
+    background-color: #E0830F;
     border-radius: 4px;
 }
 
@@ -57,13 +57,27 @@ nav ul li img {
 }
 
 .primary-imagem{
-    margin-top: -442px;
-    background-position: center;
-    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-imagem img {
+    width: 100%;
+    height: 700px;
+}
+
+.texto-centralizado {
+    position: absolute;
+    color: #E0830F;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 45px;
+    text-align: center;
 }
 
 .menu{
-    height: 55px;
+    height: 70px;
     background-color: black;
 }
 
@@ -99,17 +113,19 @@ nav ul li img {
     font-family: Audiowide;
     color: white;
     font-size: 30px;
-    text-align: center;
+    margin-top: 60px;
+    margin-left: 850px;
+    position: absolute
 }
 
 .team {
     background-color: #E0830F;
-    margin-top: 500px;
+    margin-top: 570px;
     height: 450px;
 }
 
 .member-imagem{
-    border-radius: 50%;
+    border-radius: 15%;
     width: 150px;
     height: 150px;
 }
@@ -125,7 +141,7 @@ nav ul li img {
 .card-member-1 {
     width: 150px;
     height: 250px;
-    margin-top: 40px;
+    margin-top: 140px;
     margin-left: 280px;
     position: absolute;
     text-align: center;
@@ -134,7 +150,7 @@ nav ul li img {
 .card-member-2 {
     width: 150px;
     height: 250px;
-    margin-top: 40px;
+    margin-top: 140px;
     margin-left: 580px;
     position: absolute;
     text-align: center;
@@ -143,7 +159,7 @@ nav ul li img {
 .card-member-3 {
     width: 150px;
     height: 250px;
-    margin-top: 40px;
+    margin-top: 140px;
     margin-left: 885px;
     position: absolute;
     text-align: center;
@@ -152,7 +168,7 @@ nav ul li img {
 .card-member-4 {
     width: 150px;
     height: 250px;
-    margin-top: 40px;
+    margin-top: 140px;
     margin-left: 1200px;
     position: absolute;
     text-align: center;
@@ -161,7 +177,7 @@ nav ul li img {
 .card-member-5 {
     width: 150px;
     height: 250px;
-    margin-top: 40px;
+    margin-top: 140px;
     margin-left: 1500px;
     position: absolute;
     text-align: center;
@@ -197,7 +213,7 @@ nav ul li img {
     background-color: #E0830F;
     width: 100%;
     height: 270px;
-    margin-top: 1550px;
+    margin-top: 750px;
     margin-bottom: 0px;
     position: absolute;
 }
@@ -254,7 +270,6 @@ nav ul li img {
     background-color: #2F3E46;
     width: 100%;
     height: 500px;
-    position: absolute;
     margin-top: 400px;
 }
 
@@ -266,4 +281,84 @@ nav ul li img {
 
 .imagem-problematica{
     margin-left: 350px;
+}
+
+.home4-bubatag{
+    background-color: #2F3E46;
+    width: 100%;
+    height: 450px;
+    margin-top: -200px;
+}
+
+.mercado-bubatag{
+    background-color: #90A955;
+    width: 100%;
+    height: 2000px;
+    position: relative;
+    margin-top: -20px;
+}
+
+.bubalinos-brasil{
+    text-align: center;
+    position: absolute;
+    width: 750px;
+    margin-left: 570px;
+}
+
+.rebanho-2018{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    margin-top: 400px;
+}
+
+.imagem-rebanho{
+    margin-left: 1050px;
+    margin-top: -245px;
+}
+
+.text-rebanho{
+    width: 600px;
+    margin-left: 330px;
+}
+
+.leite-producao{
+    background-image: url('././producao-leite.png');
+    width: 1129px;
+    height: 465px;
+    margin-top: 850px;
+    margin-left: 400px;
+    position: absolute;
+}
+
+.leite-qualidade{
+    width: 100%;
+    height: 450px;
+    margin-top: 1375px;
+    position: absolute;
+}
+
+.text-qualidade{
+    width: 900px;
+    text-align: center;
+    margin-left: 520px;
+}
+
+.imagem-qualidade-leite{
+    margin-left: 610px;
+}
+
+.footer-bubatag{
+    background-color: #E0830F;
+    width: 100%;
+    height: 270px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+.imagem-bubatag-header{
+    margin-left: 200px; 
+    margin-top: -375px;
+    position: relative;
 }
