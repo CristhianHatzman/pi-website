@@ -77,8 +77,13 @@ nav ul li img {
 }
 
 .menu{
-    height: 70px;
-    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black; /* Escolha uma cor de fundo para a navbar */
+    z-index: 1000; /* Certifique-se de que ela fique acima de outros elementos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil para destaque */
 }
 
 .position-krono{

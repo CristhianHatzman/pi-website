@@ -108,5 +108,19 @@
             <p class="direitos">© 2024 Krono - Todos os direitos reservados.</p>
         </footer>
     </div>
+    <script>
+        document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+            const targetId = this.getAttribute('href').slice(1);
+            const targetElement = document.getElementById(targetId);
+
+        targetElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+    });
+  });
+});
+    </script>
 </body>
 </html>
